@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">تجربة عربي</string>
+    <string name="nav_home">الرئيسية</string>
+    <string name="nav_favorites">المفضلة</string>
+    <string name="nav_profile">الملف الشخصي</string>
+    <string name="my_bookings">حجوزاتي</string>
+    <string name="settings">الإعدادات</string>
+    <string name="language">اللغة</string>
+    <string name="arabic">العربية</string>
+    <string name="english">الإنجليزية</string>
+    <string name="enable_notifications">تفعيل الإشعارات</string>
+    <string name="dark_mode">الوضع الليلي</string>
+    <string name="edit_profile">تعديل الملف الشخصي</string>
+    <string name="logout">تسجيل الخروج</string>
+    <string name="book_now">احجز الآن</string>
+    <string name="add_to_favorites">إضافة للمفضلة</string>
+    <string name="remove_from_favorites">إزالة من المفضلة</string>
+    <string name="rate_this_car">قيّم السيارة</string>
+    <string name="login_title">تسجيل الدخول</string>
+    <string name="login">دخول</string>
+    <string name="email">البريد الإلكتروني</string>
+    <string name="password">كلمة المرور</string>
+    <string name="create_new_account">إنشاء حساب جديد</string>
+    <string name="msg_enter_email_password">يرجى إدخال البريد الإلكتروني وكلمة المرور</string>
+    <string name="msg_invalid_email_password">البريد الإلكتروني أو كلمة المرور غير صحيحة</string>
+    <string name="login_subtitle">مرحبًا بعودتك، سجّل دخولك</string>
+
+    <string name="register_title">إنشاء حساب</string>
+    <string name="register_subtitle">أنشئ حسابك للمتابعة</string>
+    <string name="register">تسجيل</string>
+
+    <string name="name">الاسم</string>
+    <string name="phone">رقم الهاتف</string>
+
+    <string name="msg_fill_all_fields">يرجى تعبئة جميع الحقول</string>
+    <string name="msg_invalid_email">يرجى إدخال بريد إلكتروني صحيح</string>
+    <string name="msg_registered">تم التسجيل</string>
+    <string name="msg_email_exists">البريد الإلكتروني مستخدم مسبقًا</string>
+
+    <string name="welcome_back">مرحبًا بعودتك،</string>
+    <string name="user">مستخدم</string>
+    <string name="search_cars">ابحث عن سيارة...</string>
+    <string name="filter">فلترة</string>
+    <string name="featured_cars">سيارات مميزة</string>
+    <string name="browse_cars">تصفح السيارات</string>
+    <string name="filter_applied">تم تطبيق الفلتر</string>
+
+    <string name="cat_all">الكل</string>
+    <string name="cat_family">عائلية</string>
+    <string name="cat_suv">SUV</string>
+    <string name="cat_economy">اقتصادية</string>
+    <string name="cat_sport">رياضية</string>
+    <string name="cat_electric">كهربائية</string>
+    <string name="cat_luxury">فاخرة</string>
+
+    <string name="available">متاحة</string>
+    <string name="not_available">غير متاحة</string>
+    <string name="per_day">/ يوم</string>
+    <string name="favorite">مفضلة</string>
+
+    <string name="advanced_filters">فلترة متقدمة</string>
+    <string name="available_only">المتاح فقط</string>
+    <string name="transmission">ناقل الحركة</string>
+    <string name="fuel_type">نوع الوقود</string>
+    <string name="seats">المقاعد</string>
+    <string name="clear">مسح</string>
+    <string name="apply">تطبيق</string>
+
+    <string name="any">أي</string>
+    <string name="automatic">أوتوماتيك</string>
+    <string name="manual">عادي</string>
+
+    <string name="petrol">بنزين</string>
+    <string name="diesel">ديزل</string>
+    <string name="hybrid">هايبرد</string>
+    <string name="electric">كهرباء</string>
+
+    <string name="max_price_format">السعر الأقصى: $%1$d</string>
+    <string name="min_year_format">أقل سنة: %1$d</string>
+
+    <string name="sample_car_name">اسم السيارة</string>
+    <string name="sample_price_per_day">$0 / يوم</string>
+
+    <string name="select_booking_dates">اختر مواعيد الحجز</string>
+    <string name="pick_pickup_date">اختيار موعد الاستلام</string>
+    <string name="pick_return_date">اختيار موعد الإرجاع</string>
+    <string name="not_selected">لم يتم الاختيار</string>
+    <string name="confirm">تأكيد</string>
+
+    <string name="msg_invalid_car">سيارة غير صالحة</string>
+    <string name="msg_select_pickup_return_first">اختر موعد الاستلام وموعد الإرجاع أولًا</string>
+    <string name="msg_return_after_pickup">موعد الإرجاع يجب أن يكون بعد الاستلام</string>
+
+    <string name="car_image">صورة السيارة</string>
+
+    <string name="confirm_booking">تأكيد الحجز</string>
+    <string name="finish_booking">إنهاء الحجز</string>
+
+    <string name="days_value_format">عدد الأيام: %1$d</string>
+    <string name="total_value_format">المجموع: $%1$.2f</string>
+
+    <string name="days_format">عدد الأيام: 0</string>
+    <string name="total_format">المجموع: $0</string>
+
+    <string name="msg_booking_confirmed">تم تأكيد الحجز</string>
+    <string name="msg_car_already_booked">السيارة محجوزة بالفعل!</string>
+
+    <string name="notif_booking_reminder_title">تذكير بالحجز</string>
+    <string name="notif_booking_reminder_body">سينتهي الحجز بعد ساعة واحدة.</string>
+
+    <string name="notif_booking_ended_title">انتهى الحجز</string>
+    <string name="notif_booking_ended_body">انتهت مدة الإيجار.</string>
+
+    <string name="notif_late_return_title">تأخر في الإرجاع</string>
+    <string name="notif_late_return_body">لقد تأخرت في إرجاع السيارة.</string>
+
+    <string name="notif_booking_success_title">تم الحجز</string>
+    <string name="notif_booking_success_body">تم حجز السيارة بنجاح!</string>
+
+    <string name="active">الحالية</string>
+    <string name="past">السابقة</string>
+    <string name="cancel">إلغاء</string>
+
+    <string name="status_active">نشط</string>
+    <string name="status_ended">منتهي</string>
+
+    <string name="showing_count_zero">المعروض: 0</string>
+    <string name="no_bookings_here">لا توجد حجوزات هنا</string>
+
+    <string name="full_name">الاسم الكامل</string>
+    <string name="save_changes">حفظ التغييرات</string>
+
+    <string name="sample_booking_dates">01/02 - 05/02</string>
+    <string name="sample_price">$0</string>
+    <string name="user_name">اسم المستخدم</string>
+    <string name="sample_email">email@gmail.com</string>
+    <string name="sample_phone">059xxxxxxx</string>
+
+    <string name="msg_profile_updated">تم تحديث الملف الشخصي</string>
+
+    <string name="write_comment">اكتب تعليقًا...</string>
+    <string name="submit">إرسال</string>
+
+    <string name="msg_select_stars_first">اختر عدد النجوم أولًا</string>
+    <string name="msg_thanks_for_rating">شكرًا لتقييمك!</string>
+
+    <string name="description">الوصف</string>
+
+    <string name="image_counter_sample">1/3</string>
+    <string name="image_counter_format">%1$d/%2$d</string>
+
+    <string name="rating_sample">التقييم: 0.0 (0)</string>
+    <string name="rating_value_format">التقييم: %1$s (%2$d)</string>
+
+    <string name="specs_format">السنة: %1$d • %2$s • المقاعد: %3$d • %4$s</string>
+
+    <string name="msg_please_login_first">يرجى تسجيل الدخول أولًا</string>
+    <string name="msg_added_to_favorites">تمت الإضافة إلى المفضلة</string>
+    <string name="msg_removed_from_favorites">تمت الإزالة من المفضلة</string>
+    <string name="msg_car_not_available_now">هذه السيارة غير متاحة الآن</string>
+
+    <string name="desc_default">سيارة موثوقة ومريحة للاستخدام اليومي.</string>
+    <string name="fuel_default">استهلاك الوقود: ~7.0 لتر/100كم</string>
+
+    <string name="desc_corolla">سيارة اقتصادية عملية بقيادة سلسة وموثوقية عالية، مناسبة للمدينة والرحلات.</string>
+    <string name="fuel_corolla">استهلاك الوقود: ~6.5 لتر/100كم</string>
+
+    <string name="desc_bmw_x5">سيارة SUV فاخرة بأداء قوي ومساحة واسعة وميزات أمان متقدمة، مناسبة للعائلة.</string>
+    <string name="fuel_bmw_x5">استهلاك الوقود: ~9.5 لتر/100كم</string>
+
+    <string name="desc_mercedes_c200">سيارة سيدان فاخرة براحة عالية وتجربة قيادة سلسة، مناسبة للأعمال والراحة.</string>
+    <string name="fuel_mercedes_c200">استهلاك الوقود: ~7.4 لتر/100كم</string>
+
+    <string name="desc_tesla_model3">سيارة كهربائية حديثة بتسارع قوي وتقنيات ذكية وقيادة هادئة.</string>
+    <string name="fuel_tesla_model3">استهلاك الطاقة: ~15 ك.و.س/100كم</string>
+
+    <!-- Economy -->
+    <string name="desc_hyundai_i10">سيارة صغيرة للمدينة سهلة القيادة والاصطفاف، ممتازة للاستخدام اليومي.</string>
+    <string name="fuel_hyundai_i10">استهلاك الوقود: ~5.5 لتر/100كم</string>
+
+    <string name="desc_kia_rio">سيارة اقتصادية بمستوى راحة جيد وقيادة سلسة.</string>
+    <string name="fuel_kia_rio">استهلاك الوقود: ~6.0 لتر/100كم</string>
+
+    <!-- SUV -->
+    <string name="desc_land_cruiser">سيارة SUV قوية بمساحة وراحة ممتازة، مناسبة للعائلات والرحلات.</string>
+    <string name="fuel_land_cruiser">استهلاك الوقود: ~12.0 لتر/100كم</string>
+
+    <string name="desc_nissan_x_trail">SUV عملية بمساحة جيدة وكفاءة مناسبة للاستخدام اليومي.</string>
+    <string name="fuel_nissan_x_trail">استهلاك الوقود: ~8.5 لتر/100كم</string>
+
+    <!-- Luxury -->
+    <string name="desc_bmw_520i">سيارة سيدان فاخرة بأداء سلس وداخلية راقية.</string>
+    <string name="fuel_bmw_520i">استهلاك الوقود: ~7.8 لتر/100كم</string>
+
+    <string name="desc_audi_a6">سيدان فاخرة مريحة بتقنيات حديثة وتجربة قيادة راقية.</string>
+    <string name="fuel_audi_a6">استهلاك الوقود: ~8.2 لتر/100كم</string>
+
+    <!-- Sport -->
+    <string name="desc_ford_mustang">سيارة رياضية كلاسيكية بتسارع قوي وتجربة قيادة ممتعة.</string>
+    <string name="fuel_ford_mustang">استهلاك الوقود: ~10.5 لتر/100كم</string>
+
+    <string name="desc_chevrolet_camaro">كوبيه رياضية بأداء قوي وتصميم جريء.</string>
+    <string name="fuel_chevrolet_camaro">استهلاك الوقود: ~11.0 لتر/100كم</string>
+
+    <string name="desc_porsche_911">سيارة رياضية أيقونية بأداء وتحكم ممتازين.</string>
+    <string name="fuel_porsche_911">استهلاك الوقود: ~10.0 لتر/100كم</string>
+
+    <!-- Electric -->
+    <string name="desc_nissan_leaf">سيارة كهربائية عملية وهادئة مناسبة للمدينة.</string>
+    <string name="fuel_nissan_leaf">استهلاك الطاقة: ~17 ك.و.س/100كم</string>
+
+    <string name="desc_hyundai_ioniq_5">SUV كهربائية حديثة براحة عالية وتقنيات متقدمة.</string>
+    <string name="fuel_hyundai_ioniq_5">استهلاك الطاقة: ~18 ك.و.س/100كم</string>
+
+    <!-- Family -->
+    <string name="desc_toyota_sienna">سيارة عائلية واسعة ومريحة للرحلات الطويلة.</string>
+    <string name="fuel_toyota_sienna">استهلاك الوقود: ~7.5 لتر/100كم (هايبرد)</string>
+
+    <string name="desc_kia_carnival">فان عائلي كبير بثمانية مقاعد وعملية ممتازة.</string>
+    <string name="fuel_kia_carnival">استهلاك الوقود: ~9.0 لتر/100كم</string>
+
+    <string name="desc_honda_odyssey">فان عائلي موثوق بمقاعد مريحة وميزات أمان.</string>
+    <string name="fuel_honda_odyssey">استهلاك الوقود: ~9.5 لتر/100كم</string>
+    <string name="showing_count_format">المعروض: %1$d</string>
+
+    <string name="featured">مميز</string>
+
+    <string name="back">رجوع</string>
+    <string name="daily_rate">السعر اليومي</string>
+    <string name="starting_from">ابتداءً من</string>
+    <string name="starting_from_price">ابتداءً من $%1$d / يوم</string>
+
+    <string name="profile">الملف الشخصي</string>
+    <string name="total_bookings">إجمالي الحجوزات</string>
+
+    <string name="logout_confirm_title">تأكيد تسجيل الخروج</string>
+    <string name="logout_confirm_msg">هل أنت متأكد أنك تريد تسجيل الخروج؟</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+
+    <string name="cancel_booking_title">إلغاء الحجز</string>
+    <string name="cancel_booking_msg">هل أنت متأكد أنك تريد إلغاء هذا الحجز؟</string>
+
+    <string name="skip">تخطي</string>
+    <string name="next">التالي</string>
+    <string name="start">ابدأ</string>
+
+    <string name="onb_title_1">ابحث عن سيارتك</string>
+    <string name="onb_desc_1">تصفح السيارات حسب التصنيف واختر الأنسب لك.</string>
+
+    <string name="onb_title_2">حجز سهل</string>
+    <string name="onb_desc_2">حدد وقت وتاريخ الاستلام والإرجاع ثم أكد الحجز.</string>
+
+    <string name="onb_title_3">المفضلة</string>
+    <string name="onb_desc_3">أضف السيارات للمفضلة للوصول إليها بسرعة في أي وقت.</string>
+
+</resources>
