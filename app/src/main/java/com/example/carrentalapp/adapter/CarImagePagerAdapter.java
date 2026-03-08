@@ -25,10 +25,8 @@ public class CarImagePagerAdapter extends RecyclerView.Adapter<CarImagePagerAdap
                 ViewGroup.LayoutParams.MATCH_PARENT
         ));
 
-        // ✅ مثل التصميم المرجعي: الصورة تملأ الجزء العلوي
         iv.setScaleType(ImageView.ScaleType.CENTER_CROP);
 
-        // ✅ تحسين جودة العرض
         iv.setAdjustViewBounds(false);
         iv.setDrawingCacheEnabled(true);
         iv.setLayerType(ImageView.LAYER_TYPE_HARDWARE, null);
@@ -42,7 +40,7 @@ public class CarImagePagerAdapter extends RecyclerView.Adapter<CarImagePagerAdap
 
         Drawable d = holder.imageView.getDrawable();
         if (d != null) {
-            d.setFilterBitmap(true); // تحسين السلاسة
+            d.setFilterBitmap(true);
             d.setDither(true);
         }
     }

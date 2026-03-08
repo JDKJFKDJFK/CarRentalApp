@@ -17,7 +17,7 @@ import java.util.List;
 public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.Holder> {
 
     public interface OnCategoryClick {
-        void onClick(String category); // category key (EN) for filtering
+        void onClick(String category);
     }
 
     private final List<String> categories;
@@ -42,10 +42,8 @@ public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.Holder
     public void onBindViewHolder(@NonNull Holder h, int position) {
         String catKey = categories.get(position);
 
-        // ✅ عرض مترجم
         h.tv.setText(getLocalizedCategory(h.itemView.getContext(), catKey));
 
-        // ✅ highlight selected
         boolean selected = position == selectedPos;
         h.card.setStrokeWidth(selected ? 2 : 1);
         h.card.setStrokeColor(selected ? 0xFF6A1B9A : 0xFFE0E0E0); // بنفسجي / رمادي
@@ -58,7 +56,6 @@ public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.Holder
             notifyItemChanged(old);
             notifyItemChanged(selectedPos);
 
-            // ✅ رجّع القيمة الأصلية (EN) للفلترة
             listener.onClick(catKey);
         });
     }

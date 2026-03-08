@@ -9,7 +9,7 @@ import java.util.Locale;
 public class LocaleHelper {
 
     public static final String PREF = "settings";
-    public static final String KEY_LANG = "lang"; // "en" or "ar"
+    public static final String KEY_LANG = "lang";
 
     public static Context apply(Context context) {
         SharedPreferences pref = context.getSharedPreferences(PREF, Context.MODE_PRIVATE);

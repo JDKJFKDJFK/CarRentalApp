@@ -80,7 +80,6 @@ public class CarAdapter extends RecyclerView.Adapter<CarAdapter.CarViewHolder> {
             binding.tvName.setText(car.name);
             binding.tvCategory.setText(car.category);
 
-            // ✅ price: "$50 / day" مترجمة
             String priceText = "$" + car.dailyPrice + " " + binding.getRoot().getContext().getString(R.string.per_day);
             binding.tvPrice.setText(priceText);
 
@@ -94,7 +93,6 @@ public class CarAdapter extends RecyclerView.Adapter<CarAdapter.CarViewHolder> {
                 binding.tvAvailability.setBackgroundResource(R.drawable.bg_badge_not_available);
             }
 
-            // Favorite icon
             if (item.isFav) {
                 binding.btnFav.setImageResource(R.drawable.ic_heart_fill);
             } else {
